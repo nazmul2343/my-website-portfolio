@@ -109,3 +109,9 @@ main{
 .about-description{
     font-weight: 600;
 }
+.item-title{
+    color:#474747;
+}
+.text-center{
+    text-align: center;
+}
