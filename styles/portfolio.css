@@ -118,7 +118,11 @@ main section{
 }
 .text-center{
     text-align: center;
-}   
+} 
+.text{
+    /* width: 909px; */
+    
+} 
 .skills-container{
     display: flex;
     gap: 24px;
@@ -127,6 +131,9 @@ main section{
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.resume-download-cv{
+    margin-top: 50px;
 }
 
 .resume-container{
@@ -143,4 +150,25 @@ main section{
 }
 .experience-description, .experience-sub-title{
     color: #757575;
+}
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 117px;
+}
+.footer-description{
+    width: 562px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"],[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border:none ;
 }
